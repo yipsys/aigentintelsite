@@ -108,34 +108,7 @@ There is no build step or runtime dependency installation required to host this 
 
 Serve the repository folder with any static HTTP server. For example, if Python is installed, run this from the folder containing `index.html`:
 
-```sh
-python -m http.server 4173 --bind 127.0.0.1
-```
-
-Open <http://127.0.0.1:4173/>. Stop the preview server with `Ctrl+C` when finished. This server is for local preview only and is not a production backend.
-
-## Publish with GitHub Pages
-
-1. Create a public repository on GitHub, for example `aigentintel-site` under `yipsys`.
-2. Upload this package's contents to the repository root. Keep `assets/` alongside `index.html`; do not upload just the ZIP or put everything inside an extra enclosing folder.
-3. Commit the uploaded files to `main`.
-4. Open **Settings → Pages**.
-5. Select **Deploy from a branch**, branch **main**, and folder **/(root)**.
-6. Save and wait for deployment. GitHub will show the live URL in the Pages settings.
-7. Check the page, screenshot, buttons, responsive layout, and animation controls.
-
-With that owner and repository name, the expected address is `https://yipsys.github.io/aigentintel-site/`. This example is not confirmation that the site has been published.
-
-GitHub Pages on the free plan uses public repositories. Enabling Pages makes the website publicly accessible. See [GitHub's publishing instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site).
-
-To update the website, commit changed files to the publishing branch. Preserve the screenshot folder, `.nojekyll`, and any `CNAME` file added for a custom domain.
-
-For a custom domain, configure it in Pages settings, set the required DNS records, and enforce HTTPS once validation completes. See [GitHub's custom-domain guide](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site).
-
-## Credits and license
-
-[![Credits: project creator yipsys / sornin; copyright 2026 yipsys; released under the MIT License.](assets/credits.png)](https://github.com/yipsys)
-
+yikesaiefxed
 **Project creator: yipsys / sornin.**
 
 - GitHub profile: [yipsys](https://github.com/yipsys).
