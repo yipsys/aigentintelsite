@@ -1,4 +1,4 @@
-# AigentIntel — Open-source project website
+# AigentIntel — Open-source project website - OPEN CLI coming 12th november big update
 
 The static, open-source website for **AigentIntel**, a local terminal dashboard for understanding AI coding-agent usage.
 
